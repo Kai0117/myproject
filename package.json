@@ -1,0 +1,32 @@
+{
+  "name": "mynewsite",
+  "version": "1.0.0",
+  "description": "This README would normally document whatever steps are necessary to get the application up and running.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild app/javascript/*.* --bundle --sourcemap --outdir=app/assets/builds",
+    "build:css": "postcss app/assets/stylesheets/application.css --dir app/assets/builds"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kai0117/myproject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kai0117/myproject/issues"
+  },
+  "homepage": "https://github.com/Kai0117/myproject#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "esbuild": "^0.23.1",
+    "postcss": "^8.4.44",
+    "postcss-cli": "^11.0.0"
+  }
+}
