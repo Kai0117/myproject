@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get "posts/text" => "posts#text"
   get "/" => "render#index"
   get "about" => "render#about"
   
