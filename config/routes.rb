@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  get "index" => "render#index"
+  get "/" => "render#index"
+  get "about" => "render#about"
   
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
