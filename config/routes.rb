@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
   get "posts/text" => "posts#text"
+  get "posts/new" => "posts#new"
+  get "posts/:id" => "posts#show"
+  post "posts/create" => "posts#create"
+  
   get "/" => "render#index"
   get "about" => "render#about"
   

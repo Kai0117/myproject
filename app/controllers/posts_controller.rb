@@ -13,6 +13,6 @@ class PostsController < ApplicationController
   def create
     @post = Post.new(content: params[:content])
     @post.save
-    redirect_to("/posts/index")
+    redirect_to("/posts/text")
   end
 end
