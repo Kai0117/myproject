@@ -31,6 +31,11 @@ gem "cssbundling-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
+#Devise is a flexible authentication solution for Rails applications based on Warden.[https://github.com/heartcombo/devise] 
+gem "devise"
+#12/2　実装中〜
+
+
 
 
 # Use Redis adapter to run Action Cable in production
