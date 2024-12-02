@@ -32,7 +32,7 @@ gem "cssbundling-rails"
 gem "jbuilder"
 
 #Devise is a flexible authentication solution for Rails applications based on Warden.[https://github.com/heartcombo/devise] 
-gem "devise"
+#gem "devise"
 #12/2　実装中〜
 
 
